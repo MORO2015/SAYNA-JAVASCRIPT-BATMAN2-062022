@@ -1,0 +1,26 @@
+
+#game_accueil{
+    background-position: top center;
+    background-image: url('../illust_game/Batgame_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(130vh - 150px);
+    width: 100%;
+    .texte_accueil{
+        width: 30%;
+        // background-color: aqua;
+        // justify-content: center;
+        text-align: justify;
+        position: relative;
+        top: 320px;
+        left: 100px;
+        .le_texte{
+            @extend %titre;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+ 
+   
+  
+}

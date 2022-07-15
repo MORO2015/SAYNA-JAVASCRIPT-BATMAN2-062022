@@ -1,0 +1,32 @@
+@import '../base/colors';
+@import '../base/typo';
+@import '../base/global';
+
+nav {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    a {
+      display: block;
+      padding: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 25px;
+      color: $color-white;
+      text-transform: uppercase;
+      &:hover {
+        color: $color-yellow;
+        text-decoration: underline;
+      }
+    }
+  }
+  .menu-mobile {
+    opacity: 0;
+  }
+}
