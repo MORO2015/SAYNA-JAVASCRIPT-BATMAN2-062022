@@ -3,10 +3,16 @@ window.onload = ()=>{
     myForm.addEventListener('submit',function(e){
         e.preventDefault();
         let email=document.getElementById('email');
+        let textera=document.getElementById('textera');
         if(email.value ==''){
-            let invalid =document.getElementById('invalid');
-            invalid.innerHTML ='Veillez entrez un mail';
-            invalid.style.color ='red';
+            let invalid1 =document.getElementById('invalid1');
+            invalid1.innerHTML ='Veillez entrez un mail';
+            invalid1.style.color ='red';
+        }
+        if(textera.value ==''){
+            let invalid2 =document.getElementById('invalid2');
+            invalid2.innerHTML ='Veillez entrez votre message';
+            invalid2.style.color ='red';
         }
         else{
             document.getElementById('popbox').style.display='block';

@@ -294,7 +294,7 @@ footer .social-footer .social-item {
   display: block;
   margin: 20px 0;
 }
-#contact .form #invalid {
+#contact .form #invalid1, #contact .form #invalid2 {
   font-style: italic;
   padding-top: 10px;
 }
